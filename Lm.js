@@ -1,0 +1,1 @@
+setTimeout(function(){location.href="map.html"} , 2000); 

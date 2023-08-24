@@ -1,0 +1,205 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+:root {
+    --c-gray-900: #ffffffb2; 
+    --c-gray-800: rgba(141, 135, 135, 0.582);
+
+    /* 
+    --c-gray-700: #2e2e2e;
+    --c-gray-600: #313131;
+    --c-gray-500: #969593;
+    --c-gray-400: #a6a6a6;
+    --c-gray-300: #bdbbb7;
+    --c-gray-200: #f1f1f1;
+    --c-gray-100: #ffffff;
+    --c-green-500: #45ffbc;
+    --c-olive-500: #e3ffa8;
+    */
+    --c-white: var(--c-gray-100);
+    --c-text-primary: var(--c-gray-100);
+    --c-text-secondary: var(--c-gray-200);
+    --c-text-tertiary: var(--c-gray-500);
+}
+
+body {
+    line-height: 1.5;
+    min-height: 100vh;
+    font-family: "Be Vietnam Pro", sans-serif;
+    background-color: var(--c-gray-900);
+    color: var(--c-text-primary);
+    display: flex;
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+    justify-content: center;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+.container {
+    min-height: 80vh;
+    width: 95%;
+    max-width: 1600px;
+    background-color: var(--c-gray-800);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    border-radius: 25px;
+
+}
+
+/*Container_items*/
+.map-item {
+    /*background: #a6a6a6;*/
+    background-image: url('https://institutoolhar.com.br/wp-content/uploads/2019/10/Porque-mesmo-na-era-da-internet-a-escolha-do-ponto-ainda-e-tao-importante.png');
+    /*background-color: #45ffbc;*/
+    border-radius: 25px;
+    padding: 200px;
+    margin: auto;
+
+    opacity: 80%;
+
+    transition: 1s
+
+}
+.map-item:hover{
+    padding: 250px;
+    opacity: 100%;
+}
+
+.eLearning-item {
+    /*background: #a6a6a6;*/
+    background-image: url('https://img.freepik.com/vector-gratis/iconos-e-learning-planos_1284-3950.jpg?w=826&t=st=1666635882~exp=1666636482~hmac=0afa846c36c7de25cadc51fe2a87117d6416d6e0fa5aaf61eeba9ff813f9b4f6');
+    /*background-color: #45ffbc;*/
+    border-radius: 25px;
+    padding: 200px;
+    margin: auto;
+
+    opacity: 80%;
+
+    transition: 1s
+
+}
+.eLearning-item:hover {
+    padding: 250px;
+    opacity: 100%;
+}
+
+/*Button*/
+
+ul {
+    padding: 0;
+    width: 100%;
+}
+li {
+    display: inline;
+}
+.button-17 {
+    align-items: center;
+    appearance: none;
+    background-color: #fff;
+    border-radius: 24px;
+    border-style: none;
+    box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px,rgba(0, 0, 0, .14) 0 6px 10px 0,rgba(0, 0, 0, .12) 0 1px 18px 0;
+    box-sizing: border-box;
+    color: #3c4043;
+    cursor: pointer;
+    display: inline-flex;
+    fill: currentcolor;
+    font-family: "Google Sans",Roboto,Arial,sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    height: 48px;
+    justify-content: center;
+    letter-spacing: .25px;
+    line-height: normal;
+    max-width: 100%;
+    overflow: visible;
+    padding: 2px 24px;
+    position: relative;
+    text-align: center;
+    text-transform: none;
+    transition: box-shadow 280ms cubic-bezier(.4, 0, .2, 1),opacity 15ms linear 30ms,transform 270ms cubic-bezier(0, 0, .2, 1) 0ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: auto;
+    will-change: transform,opacity;
+    z-index: 0;
+
+    opacity: 70%;
+
+    text-decoration: none;
+
+}
+
+.button-17:hover {
+    background: #F6F9FE;
+    color: #174ea6;
+    opacity: 100%;
+}
+
+.button-17:active {
+    box-shadow: 0 4px 4px 0 rgb(60 64 67 / 30%), 0 8px 12px 6px rgb(60 64 67 / 15%);
+    outline: none;
+}
+
+.button-17:focus {
+    outline: none;
+    border: 2px solid #4285f4;
+}
+
+.button-17:not(:disabled) {
+    box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
+}
+
+.button-17:not(:disabled):hover {
+    box-shadow: rgba(60, 64, 67, .3) 0 2px 3px 0, rgba(60, 64, 67, .15) 0 6px 10px 4px;
+}
+
+.button-17:not(:disabled):focus {
+    box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
+}
+
+.button-17:not(:disabled):active {
+    box-shadow: rgba(60, 64, 67, .3) 0 4px 4px 0, rgba(60, 64, 67, .15) 0 8px 12px 6px;
+}
+
+.button-17:disabled {
+    box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
+}
+
+
+/*Title*/
+.logo {
+    position: fixed;
+    height:12%;
+    width:200%;
+    text-align: center;
+
+    width: auto;
+    margin: auto;
+    padding: 10px;
+}
+
+.title {
+    list-style-type: none;
+    margin: auto 0;
+    padding:0;
+    border-top:1 solid;
+    border-right:1 solid;
+    border-left:1 solid;
+    width:100%;
+
+    padding: .2em 1em;
+    color: #fff;
+    background-color: rgba(71, 65, 65, 0.555);
+    display:inline-block;
+    text-align:center;
+
+    border-radius: 24px;
+
+}

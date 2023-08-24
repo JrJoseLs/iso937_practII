@@ -1,0 +1,1 @@
+setTimeout(function(){location.href="asistencias.php"} , 2000); 
